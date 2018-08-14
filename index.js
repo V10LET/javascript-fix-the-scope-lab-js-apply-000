@@ -1,18 +1,15 @@
 var animal = 'dog'
+var otherAnimal = 'cat'
 
 function myAnimal() {
   return animal
 }
 
-function yourAnimal(choice) {
+function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
-  if (choice === "dog") {
-    return animal
-  } else {
-    return "cat"
-  }
+  return otherAnimal
 }
 
 function add2(n) {
